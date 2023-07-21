@@ -1,6 +1,6 @@
 package studies.dev.learningjava.introduction;
 
-public class PrimitiveTypes02 {
+public class C02PrimitiveTypes {
     public static void main(String[] args){
         //int, double, float, boolean,char, byte, short, long
         int age = 18;

@@ -1,6 +1,6 @@
 package studies.dev.learningjava.introduction;
 
-public class PrimitiveTypesExercise03 {
+public class C03PrimitiveTypesExercise {
     public static void main(String[] args) {
         String name = "Lila";
         String address = "124 Street Ville";
