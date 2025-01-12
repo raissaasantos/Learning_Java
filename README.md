@@ -86,8 +86,43 @@ public class TiposPrimitivos {
 <a name="5">
 <h1>Arrays</h1>
 </a>
+
 - Arrays are considered a object in the memory
 - You can not access a nonexistent position
 
 ![Captura de tela 2025-01-12 173611](https://github.com/user-attachments/assets/0f4c1f09-cc8e-4337-8055-dfd74bb2326c)
+
+```
+//Initial default when not initialized
+        //byte, short, int, long, float e double = 0
+        // char '\u0000'
+        //boolean = false
+        // String = null
+```
+
+- Array multidimensional
+
+```
+    public static void main(String[] args) {
+        //1,2,3,4,5 months
+        //31,28,31,30 days
+        int[][] days = new int[3][3];
+        days[0][0] = 31;
+        days[0][1] = 28;
+        days[0][2] = 31;
+
+        days[1][0] = 30;
+        days[1][1] = 31;
+        days[1][2] = 30;
+
+        for (int i = 0; i < days.length; i++) {
+            for (int j = 0; j < days[i].length; j++) {
+                System.out.println(days[i][j]);
+            }
+        }
+```
+
+![Captura de tela 2025-01-12 182521](https://github.com/user-attachments/assets/8a3202c8-324a-4d1c-a41c-393b7c0c6de2)
+
+
 
