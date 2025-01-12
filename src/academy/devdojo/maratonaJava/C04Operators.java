@@ -1,4 +1,4 @@
-package studies.dev.learningjava.introduction;
+package academy.devdojo.maratonaJava;
 
 public class C04Operators {
     public static void main(String[] args) {
@@ -52,7 +52,7 @@ public class C04Operators {
 
         // Unary ++ --
         int count = 0;
-        count ++; // ++count;
+        count ++; //count = count + 1;
         count --;
         System.out.println(count);
 

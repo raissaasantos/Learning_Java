@@ -1,4 +1,4 @@
-package studies.dev.learningjava.introduction;
+package academy.devdojo.maratonaJava;
 
 public class C05P2conditionalStatements {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package studies.dev.learningjava.introduction;
+package academy.devdojo.maratonaJava;
 
 public class C05P6conditionalStatements {
         // Using switch, print if the day is business day or weekend

@@ -1,6 +1,6 @@
-package studies.dev.learningjava.introduction;
+package academy.devdojo.maratonaJava;
 
-public class C03PrimitiveTypesExercise {
+public class C03TiposPrimitivosExercise {
     public static void main(String[] args) {
         String name = "Lila";
         String address = "124 Street Ville";

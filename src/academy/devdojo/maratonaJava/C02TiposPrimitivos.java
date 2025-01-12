@@ -1,11 +1,11 @@
-package studies.dev.learningjava.introduction;
+package academy.devdojo.maratonaJava;
 
-public class C02PrimitiveTypes {
+public class C02TiposPrimitivos {
     public static void main(String[] args){
         //int, double, float, boolean,char, byte, short, long
         int age = 18;
         long bigNumber = 10000;
-        float salaryFloat = 2500;
+        float salaryFloat = 2500.0f;
         double salaryDouble = 2500;
         boolean trueValue = true;
         boolean falseValue = false;
