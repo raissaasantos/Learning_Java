@@ -6,6 +6,7 @@
 - [Tipos Primitivos](#2)
 - [Operadores](#3)
 - [Operador Ternario](#4)
+- [Arrays](#5)
 
 ##
 <a name="1">
@@ -81,3 +82,12 @@ public class TiposPrimitivos {
 
         System.out.println(displayMessage);
 ```
+
+<a name="5">
+<h1>Arrays</h1>
+</a>
+- Arrays are considered a object in the memory
+- You can not access a nonexistent position
+
+![Captura de tela 2025-01-12 173611](https://github.com/user-attachments/assets/0f4c1f09-cc8e-4337-8055-dfd74bb2326c)
+
