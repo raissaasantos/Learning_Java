@@ -15,6 +15,8 @@ public class CarTest01 {
         car2.model = "320i";
         car2.year = 2020;
 
+        car = car2;
+
         System.out.println("Name: "+car.name+"\nModel: "+ car.model+"\nYear: "+car.year);
         System.out.println("----------------------------------------------------------");
         System.out.println("Name: "+car2.name+"\nModel: "+ car2.model+"\nYear: "+car2.year);
