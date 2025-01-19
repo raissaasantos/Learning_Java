@@ -42,4 +42,20 @@ public class Calculator {
         num1 = 99;
         num2 = 33;
     }
+
+    public void sumArray(int[] numbers){
+        int sum = 0;
+        for (int num : numbers){
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+    public void sumArgs(int...numbers){
+        int sum = 0;
+        for (int num : numbers){
+            sum += num;
+        }
+        System.out.println(sum);
+    }
 }
