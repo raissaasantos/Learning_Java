@@ -11,6 +11,7 @@ public class EmployeeTest01 {
         employee.salaries = new double[]{1200, 987.32, 2500};
 
         employee.print();
+        employee.printAverage();
 
     }
 }
