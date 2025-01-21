@@ -13,6 +13,7 @@ public class Employee {
         for(double salary: salaries){
             System.out.println(salary + " ");
         }
+        printAverage();
     }
 
     public void printAverage(){
@@ -21,6 +22,6 @@ public class Employee {
             average += salary;
         }
         average /= salaries.length;
-        System.out.println("Average: "+ average);
+        System.out.println("\nAverage: "+ average);
     }
 }
