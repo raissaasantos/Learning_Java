@@ -2,16 +2,26 @@
 
 ## Table of contents
 
-- [Comentários](#1)
-- [Tipos Primitivos](#2)
-- [Operadores](#3)
-- [Operador Ternario](#4)
-- [Arrays](#5)
-- [Function VS Methods](#6)
-- [Sobrecarga](#7)
+- [Java Compiler](#1)
+- [Comentários](#2)
+- [Tipos Primitivos](#3)
+- [Operadores](#4)
+- [Operador Ternario](#5)
+- [Arrays](#6)
+- [Function VS Methods](#7)
+- [Sobrecarga](#8)
 
 ##
 <a name="1">
+<h1>Java Compiler</h1>
+</a>
+O processo de compilação Java transforma o código-fonte em bytecode, 
+um formato intermediário que a Máquina Virtual Java (JVM) pode ler e executar. 
+Essa arquitetura permite a portabilidade do Java em vários sistemas operacionais.
+
+![img.png](img.png)
+
+<a name="2">
 <h1>Comentários</h1>
 </a>
 Os métodos públicos na sua classe devem ter um comentário javadoc
@@ -23,7 +33,7 @@ Os métodos públicos na sua classe devem ter um comentário javadoc
 * /
 ```
 
-<a name="2">
+<a name="3">
 <h1>Tipos Primitivos</h1>
 </a>
 
@@ -45,7 +55,7 @@ public class TiposPrimitivos {
 }
 ```
 
-<a name="3">
+<a name="4">
 <h1>Operadores</h1>
 </a>
 
@@ -70,7 +80,7 @@ public class TiposPrimitivos {
         System.out.println(count);
 ```
 
-<a name="4">
+<a name="5">
 <h1>Operador Ternario</h1>
 </a>
 
@@ -85,7 +95,7 @@ public class TiposPrimitivos {
         System.out.println(displayMessage);
 ```
 
-<a name="5">
+<a name="6">
 <h1>Arrays</h1>
 </a>
 
@@ -127,7 +137,7 @@ public class TiposPrimitivos {
 ![Captura de tela 2025-01-12 182521](https://github.com/user-attachments/assets/8a3202c8-324a-4d1c-a41c-393b7c0c6de2)
 
 
-<a name="6">
+<a name="7">
 <h1>Function VS Methods</h1>
 </a>
 
@@ -136,6 +146,6 @@ public class TiposPrimitivos {
 
 ![Captura de tela 2025-01-13 230627](https://github.com/user-attachments/assets/d425a0f8-307d-41eb-8d20-6595994a2e05)
 
-<a name="7">
+<a name="8">
 <h1>Sobrecarga</h1>
 </a>
