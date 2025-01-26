@@ -7,6 +7,8 @@
 - [Operadores](#3)
 - [Operador Ternario](#4)
 - [Arrays](#5)
+- [Function VS Methods](#6)
+- [Sobrecarga](#7)
 
 ##
 <a name="1">
@@ -125,7 +127,7 @@ public class TiposPrimitivos {
 ![Captura de tela 2025-01-12 182521](https://github.com/user-attachments/assets/8a3202c8-324a-4d1c-a41c-393b7c0c6de2)
 
 
-<a name="3">
+<a name="6">
 <h1>Function VS Methods</h1>
 </a>
 
@@ -133,3 +135,7 @@ public class TiposPrimitivos {
 - Métodos: Funções associadas a classes que operam sobre os dados de objetos.
 
 ![Captura de tela 2025-01-13 230627](https://github.com/user-attachments/assets/d425a0f8-307d-41eb-8d20-6595994a2e05)
+
+<a name="7">
+<h1>Sobrecarga</h1>
+</a>
