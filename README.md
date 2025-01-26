@@ -36,6 +36,7 @@ Os métodos públicos na sua classe devem ter um comentário javadoc
 <a name="3">
 <h1>Tipos Primitivos</h1>
 </a>
+Em Java não existe o tipo primitivo "string", String é um objeto.
 
 ```
 public class TiposPrimitivos {
@@ -99,11 +100,12 @@ public class TiposPrimitivos {
 <h1>Arrays</h1>
 </a>
 
-- Arrays are considered a object in the memory
-- You can not access a nonexistent position
+- Arrays são consideradas um objeto na memória.
+- Você não pode acessar uma posição inexistente.
 
 ![Captura de tela 2025-01-12 173611](https://github.com/user-attachments/assets/0f4c1f09-cc8e-4337-8055-dfd74bb2326c)
 
+- Output padrão de cada tipo quando não inicializado.
 ```
 //Initial default when not initialized
         //byte, short, int, long, float e double = 0
@@ -138,7 +140,7 @@ public class TiposPrimitivos {
 
 
 <a name="7">
-<h1>Function VS Methods</h1>
+<h1>Função VS Métodos</h1>
 </a>
 
 - Funções: Blocos de código reutilizáveis que realizam tarefas.
@@ -147,5 +149,20 @@ public class TiposPrimitivos {
 ![Captura de tela 2025-01-13 230627](https://github.com/user-attachments/assets/d425a0f8-307d-41eb-8d20-6595994a2e05)
 
 <a name="8">
-<h1>Sobrecarga</h1>
+<h1>Sobrecarga de método</h1>
 </a>
+É você ter o dois métodos com o mesmo nome, porém o tipo ou a 
+quantidade dos parâmetros são diferentes.
+
+```
+public void init(String name, String type, int episodes){
+        this.name = name;
+        this.type = type;
+        this.episodes = episodes;
+    }
+
+    public void init(String name, String type, int episodes, String gender){
+        this.init(name, type, episodes);
+        this.gender = gender;
+    }
+```
