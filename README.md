@@ -10,6 +10,7 @@
 - [Arrays](#6)
 - [Function VS Methods](#7)
 - [Sobrecarga](#8)
+- [Construtores](#9)
 
 ##
 <a name="1">
@@ -164,5 +165,27 @@ public void init(String name, String type, int episodes){
     public void init(String name, String type, int episodes, String gender){
         this.init(name, type, episodes);
         this.gender = gender;
+    }
+```
+
+<a name="9">
+<h1>Construtores</h1>
+</a>
+
+- É executado antes de qualquer método que tenha na classe.
+- Para chamar outro construtor, o this precisa ser a primeira linha.
+
+```
+  public Anime(String name, String type, int episodes, String gender){
+        this();
+        this.name = name;
+        this.type = type;
+        this.episodes = episodes;
+        this.gender = gender;
+    }
+
+    public Anime(String name, String type, int episodes, String gender, String estudio){
+        this(name, type, episodes, gender);
+        this.estudio = estudio;
     }
 ```
