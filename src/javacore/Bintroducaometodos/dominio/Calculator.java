@@ -2,12 +2,12 @@ package javacore.Bintroducaometodos.dominio;
 
 public class Calculator {
 
-    public void sumTwoNumbers(){
-        System.out.println(10+10);
+    public static int sumTwoNumbers(int number1, int number2){
+        return number1 + number2;
     }
 
-    public void minusTwoNumbers(){
-        System.out.println(21-2);
+    public static int minusTwoNumbers(int number1, int number2){
+        return number1 - number2;
     }
 
     public void multiplyTwoNumbers(int num1, int num2){
