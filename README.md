@@ -9,8 +9,9 @@
 - [Operador Ternario](#5)
 - [Arrays](#6)
 - [Function VS Methods](#7)
-- [Sobrecarga](#8)
-- [Construtores](#9)
+- [Modificadores de Acesso](#8)
+- [Sobrecarga](#9)
+- [Construtores](#10)
 
 ##
 <a name="1">
@@ -150,6 +151,24 @@ public class TiposPrimitivos {
 ![Captura de tela 2025-01-13 230627](https://github.com/user-attachments/assets/d425a0f8-307d-41eb-8d20-6595994a2e05)
 
 <a name="8">
+<h1>Modificadores de acesso</h1>
+</a>
+
+### Public
+- Acessível de qualquer lugar, dentro ou fora da classe.
+- Usado para membros (atributos e métodos) que precisam ser acessados por outras classes ou partes do programa.
+### Private
+- Acessível apenas dentro da própria classe.
+- Usado para membros que são detalhes de implementação interna da classe e não devem ser acessados diretamente por outras classes.
+- Exemplo: Atributos que armazenam dados internos da classe ou métodos auxiliares que são usados apenas dentro da classe.
+### Static
+- Não pode ser instanciado.
+- Utilizado quando o método vai ser usado <b>apenas uma vez</b>.
+### Default
+- Quando você não especifica um modificador de acesso (public, private ou protected) para um membro de uma classe (atributo ou método), ele recebe automaticamente o modificador de acesso "default".
+- Isso significa que o membro é acessível apenas dentro do mesmo pacote em que a classe está localizada.
+
+<a name="9">
 <h1>Sobrecarga de método</h1>
 </a>
 É você ter o dois métodos com o mesmo nome, porém o tipo ou a 
@@ -168,7 +187,7 @@ public void init(String name, String type, int episodes){
     }
 ```
 
-<a name="9">
+<a name="10">
 <h1>Construtores</h1>
 </a>
 
