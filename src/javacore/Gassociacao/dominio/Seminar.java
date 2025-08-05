@@ -5,8 +5,9 @@ public class Seminar {
     private Student[] students;
     private Place place;
 
-    public Seminar(String title) {
+    public Seminar(String title, Place place) {
         this.title = title;
+        this.place = place;
     }
 
     public Seminar(String title, Student[] students, Place place) {
