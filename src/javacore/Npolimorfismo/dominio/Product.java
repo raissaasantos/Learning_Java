@@ -1,6 +1,6 @@
 package javacore.Npolimorfismo.dominio;
 
-public abstract class Product implements Tax{
+public abstract class Product implements Tax {
     protected String name;
     protected double value;
 
